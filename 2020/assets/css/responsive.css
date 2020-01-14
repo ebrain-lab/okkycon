@@ -1,0 +1,23 @@
+@media screen and (max-width: 1023px) {
+    .logo {top: 3%; left: 5%;}
+    .logo img {width: 70px;}
+
+    .wrapper h1 {font-size: 36px; margin-bottom: 12px;}
+    .wrapper h4 {font-size: 20px; margin-bottom: 32px;}
+
+    .wrapper .topic .title {font-size: 24px;}
+    .wrapper .topic .sub {font-size: 16px;}
+
+    .wrapper .info {margin: 0px 12px; font-size: 20px; padding: 32px 0px;}
+
+    .wrapper .info .date {margin-bottom: 12px;}
+    .wrapper .info .days {font-size: 12px;}
+
+    .wrapper .is-countdown {font-size: 16px;}
+    .wrapper .is-countdown .countdown-section {padding: 12px; width: 68px;}
+    .wrapper .is-countdown .countdown-section + .countdown-section {margin-left: 12px;}
+    .wrapper .is-countdown .countdown-amount {font-size: 24px; }
+    .wrapper .is-countdown .countdown-period {font-size: 12px;}
+
+
+}
