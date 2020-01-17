@@ -559,7 +559,21 @@ footer {
     
     .left {
         float: left;
+
+        .item {
+            text-align: left;
+        }
+
+        .item + .item {
+            margin-top: 4px;
+        }
+
         .ask {
+            width: 85px;
+            display: inline-block;
+            text-align: left;
+        }
+        .history {
             width: 85px;
             display: inline-block;
             text-align: left;
@@ -939,8 +953,15 @@ $smartphone-small: "screen and (max-width : 320px)";
                 display: none;
             }
         }
+        .left .item + .item {
+            margin-top: 12px;
+        }
         .left, .right { float: none; margin-bottom: 30px; line-height: 1.3; word-break: keep-all; }
         .left .ask {
+            display: block;
+            margin-bottom: 10px;
+        }
+        .left .history {
             display: block;
             margin-bottom: 10px;
         }
