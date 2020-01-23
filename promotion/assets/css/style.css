@@ -1,0 +1,25 @@
+.section {position: relative; z-index: 1; background: url(../images/cover.jpg); background-size: cover; color: #ffffff;}
+.section::after { background-color: #191919; top:0; left:0; position: absolute; background-size: 100%; opacity: 0.9; z-index:-1; content:""; width:100%; height:100%;}
+
+.logo {position: absolute; top: 40px; left: 60px;}
+.logo a {display: inline-block;}
+.logo img {width: 150px;}
+.wrapper {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center;}
+.wrapper h1 {font-size: 72px; font-weight: bold; margin-bottom: 16px;}
+.wrapper h1 span {color: #e62240;}
+.wrapper h4 {font-size: 36px; margin-bottom: 40px;}
+
+.wrapper .topic {margin-bottom: 36px;}
+.wrapper .topic .title {font-size: 32px; margin-bottom: 12px; font-weight: bold;}
+.wrapper .topic .sub {font-size: 24px; opacity: 0.8;}
+
+.wrapper .info {font-size: 24px; border-top: 1px solid;  padding: 36px 0px;}
+.wrapper .info .date {margin-bottom: 12px;}
+.wrapper .info .days {font-size: 16px;}
+
+.wrapper .is-countdown {margin: 36px; font-size: 20px;}
+.wrapper .is-countdown .countdown-row {display: flex; justify-content: center;}
+.wrapper .is-countdown .countdown-section {width: 23%; background: rgba(255, 255, 255, .25); border: 1px solid rgba(255, 255, 255, .5); box-shadow: 0 5px 50px -10px #000; border-radius: 4px; padding: 16px;}
+.wrapper .is-countdown .countdown-section + .countdown-section {margin-left: 16px;}
+.wrapper .is-countdown .countdown-amount {font-size: 32px; }
+.wrapper .is-countdown .countdown-section .countdown-period {display: block;}
