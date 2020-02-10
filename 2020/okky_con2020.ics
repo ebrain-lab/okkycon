@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//www.marudot.com//iCal Event Maker
+X-WR-CALNAME:OKKY CON:2020
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Tokyo
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Tokyo
+X-LIC-LOCATION:Asia/Tokyo
+BEGIN:STANDARD
+TZOFFSETFROM:+0900
+TZOFFSETTO:+0900
+TZNAME:JST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20171113T030556Z
+UID:20171113T030556Z-646973334@marudot.com
+DTSTART;TZID="Asia/Tokyo":20200225T083000
+DTEND;TZID="Asia/Tokyo":20200225T175000
+SUMMARY:OKKY CON:2020
+URL:http%3A%2F%2Fokkycon.com%2F2020%2F
+DESCRIPTION:OKKY Conference 《OKKYCON: 2020 - 협업의 기술\, 나와 팀의 생산성을 높이는 스마트한 협업》\n\nOKKYCON: 2020 [오키:콘]은\, ‘커뮤니케이션이란 무엇인가? 어떻게 해야 효과적으로 협업을 할 수 있는가?’ 부터 ‘네이버/LINE에서 2년간 100여개의 자동화 프로그램을 개발하면서 얻은 인사이트’까지\,\n모두 파헤쳐보는 시간을 마련하였습니다.\, 개발자라면 꼭 참여하셔서\, 협업의 기술에 대해 제대로 알아보시기 바랍니다.\n\n자세한 연사 및 세션 소개는 아래 OKKYCON 홈페이지를 통해 확인하실 수 있습니다.\n\nhttp://okkycon.com/2020/
+LOCATION:과학기술회관(강남) B1 대강당\, 서울특별시 강남구 테헤란로7길 22
+END:VEVENT
+END:VCALENDAR
