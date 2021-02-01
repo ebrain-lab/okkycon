@@ -11,7 +11,7 @@ html {
 }
 .hero {
 /*   background-image: url("../images/cover.jpg"); */
-  background-color: #0233BE;
+  background-color: #0059ab;
   background-position: center bottom;
   background-size: cover;
   width: 100%;
@@ -21,8 +21,7 @@ html {
 }
 
 .hero::after {
-/*   background-color: #191919;  */
-  background: radial-gradient(circle, #0939c1 0%, #3d62cd 100%);
+  background: radial-gradient(circle, #0059ab 20%, #272727 100%);
   top:0; 
   left:0; 
   position: absolute; 
@@ -93,7 +92,7 @@ html {
   color: #e62240;
 }
 .hero-caption .candy-blue {
-  color: #0233BE;
+  color: #0059ab;
 }
 .about-a {
   text-align: left;
@@ -126,7 +125,7 @@ html {
 .about-a.intro .inside .sub-title {
   font-size: 1.8rem;
   margin-bottom: 16px;
-  color: #e62240;
+  color: #0059ab;
   font-weight: bold;
 }
 .about-a .inside .myth{
@@ -148,7 +147,7 @@ html {
   line-height: 1.3;
 }
 .checklist li i {
-  color: #e62240;
+  color: #0059ab;
   margin-right: 10px;
 }
 .checklist li span {
@@ -230,7 +229,7 @@ html {
   left: 0;
   width: 12px;
   height: 12px;
-  border: 2px solid #e62240;
+  border: 2px solid #0059ab;
   border-radius: 9px;
   -moz-border-radius: 9px;
   -webkit-border-radius: 9px;
@@ -285,7 +284,7 @@ html {
 }
 .keynote .hyphen {
   font-size: 1.375rem;
-  color: #e62240;
+  color: #0059ab;
 }
 .keynote .speaker-about {
   word-break: keep-all;
@@ -295,7 +294,7 @@ html {
   margin-top: 22px;
 }
 .keynote .speaker-about a {
-  color: #e62240;
+  color: #0059ab;
 }
 .keynote .mention {
   font-weight: bold;
@@ -349,7 +348,7 @@ html {
 }
 .speakers .hyphen {
   font-size: 1.375rem;
-  color: #e62240;
+  color: #0059ab;
 }
 .speakers .speaker-about {
   word-break: keep-all;
@@ -359,7 +358,7 @@ html {
   margin-top: 22px;
 }
 .speakers .speaker-about a {
-  color: #e62240;
+  color: #0059ab;
 }
 .speakers .mention {
   font-weight: bold;
@@ -376,7 +375,7 @@ html {
 .section-title:after {
   width: 66px;
   height: 8px;
-  background-color: #e62240;
+  background-color: #0059ab;
   content: "";
   display: block;
   margin: 23px auto 0 auto;
@@ -396,7 +395,7 @@ html {
   position: absolute;
   width: 10px;
   height: 10px;
-  background-color: #e62240;
+  background-color: #0059ab;
   border-radius: 50%;
   top: 0;
   left: -5px;
@@ -425,7 +424,7 @@ html {
 }
 .schedule .session-speaker {
   font-size: 1.3rem;
-  color: #e62240;
+  color: #0059ab;
 }
 .schedule strong {
   font-weight: bold;
@@ -435,12 +434,13 @@ html {
   font-size: 1rem;
 }
 .schedule h4 span {
-  color: #e62240;
+  color: #0059ab;
 }
 .registration {
-  background-image: url("../images/bg-03.png");
-  background-size: cover;
-  background-attachment: fixed;
+/*   background-image: url("../images/bg-03.png"); */
+/*   background-size: cover; */
+/*   background-attachment: fixed; */
+  background: radial-gradient(circle, #1d1d1d 20%, #212121 100%);
   color: #fff;
   font-size: 1.68rem;
   text-align: center;
@@ -463,7 +463,7 @@ html {
   font-family: 'Noto Sans KR', sans-serif;
 }
 .registration .conf-info em {
-  color: #e62240;
+  color: #0059ab;
 }
 .registration .conf-info:last-of-type {
   margin-bottom: 0;
@@ -494,7 +494,7 @@ html {
   text-align: left;
 }
 .registration .cancle-box .sub a {
-  color: #e62240;
+  color: #0059ab;
 }
 .registration .cancle-box .sub li {
   margin-bottom: 10px;
@@ -504,7 +504,7 @@ html {
   padding-left: 30px;
 }
 .registration .cancle-box .sub ol ol span {
-  color: #e62240;
+  color: #0059ab;
 }
 .registration .col {
   width: 600px;
@@ -528,7 +528,7 @@ html {
   color: #dfdfdf;
 }
 .registration .col .sub span {
-  color: #e62240;
+  color: #0059ab;
 }
 .registration .apply {
   margin-top: 30px;
@@ -588,7 +588,7 @@ html {
   line-height: 70px;
   font-size: 1.68rem;
   color: #fff;
-  background-color: #e62240;
+  background-color: #0059ab;
   border-radius: 35px;
   margin: 0 auto 35px auto;
 }
@@ -637,6 +637,9 @@ html {
 .sponsors #jpub-logo {
   width: 170px;
 }
+.sponsors .diamond h4 {
+  color: #0059ab;
+}
 .sponsors .gold h4 {
   color: #ffc200;
 }
@@ -676,9 +679,6 @@ footer .logo {
   font-weight: normal;
   position: relative;
 }
-footer .logo img {
-  width: 202px;
-}
 footer .logo p {
   line-height: 1.3;
   margin-top: 10px;
@@ -712,9 +712,6 @@ footer .left .history {
 footer .right {
   float: right;
 }
-.logo img {
-  width: 150px;
-}
 .apply[disabled=disabled] {
   cursor: not-allowed;
 }
@@ -747,8 +744,8 @@ footer .right {
   stroke-dashoffset: 452;
 }
 .apply span {
-  background: linear-gradient(to right, #fe7f81 0%, #e15e64 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FE7F81', endColorstr='#E15E64',GradientType=1);
+  background: linear-gradient(to right, #0059ab 0%, #0059ab 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0059ab', endColorstr='#0059ab',GradientType=1);
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -835,7 +832,7 @@ footer .right {
     position: relative;
  }
   .hero-caption h1 em {
-    color: #e62240;
+    color: #0059ab;
  }
   .hero-caption .sub-title {
     margin-bottom: 20px;
@@ -1035,7 +1032,7 @@ footer .right {
     width: 250px;
     font-size: 1.68rem;
     color: #fff;
-    background-color: #e62240;
+    background-color: #0059ab;
     border-radius: 35px;
  }
   .apply svg {
@@ -1146,6 +1143,9 @@ footer .right {
 @media screen and (max-width : 620px) {
   html {
     font-size: 10px;
+ }
+ .hero::after {
+  	background: radial-gradient(circle, #0059ab 55%, #272727 100%);
  }
   .about-a .whatfor span {
     display: inline;
