@@ -87,7 +87,9 @@ html {
   font-weight: bold;
 }
 .hero-caption .sub-title .date, .hero-caption .sub-title .place {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 2.2rem;
   margin-top: 10px;
 }
@@ -114,10 +116,10 @@ html {
   padding-bottom: 5px;
 }
 .about-a .intro {
-/*   background-image: url("../images/bg-01-slice.png"); */
   background-position: 100% 0;
   background-size: auto 100%;
   background-repeat: no-repeat;
+  text-align: center;
 }
 .about-a .quote {
   color: #888;
@@ -179,13 +181,13 @@ html {
   word-break: keep-all;
 }
 .about-left-bg {
-  text-align: right;
   font-size: 1.5rem;
 /*   background-image: url("../images/bg-04.png"); */
   background-position: 0% 0;
   line-height: 1.6;
   background-size: cover;
   height: 100%;
+  text-align: center;
 }
 .about-left-bg .inside {
   padding: 130px 120px;
@@ -207,7 +209,19 @@ html {
 }
 
 .target .inside {
+  display: flex;
+  flex-flow: row wrap;
   padding: 90px 120px;
+}
+
+.target .inside .title,
+ .target .inside .description {
+	text-align: center;
+	width: 100%;
+}
+
+.target .inside .checklist {
+	margin: auto;
 }
 
 .target.v2 {
@@ -303,8 +317,9 @@ html {
   font-weight: bold;
 }
 .keynote .hyphen {
-  font-size: 1.375rem;
   color: #0059ab;
+  vertical-align: text-top;
+  padding: 0 3px 3px 0;
 }
 .keynote .speaker-about {
   word-break: keep-all;
@@ -367,8 +382,9 @@ html {
   font-weight: bold;
 }
 .speakers .hyphen {
-  font-size: 1.375rem;
   color: #0059ab;
+  vertical-align: text-top;
+  padding: 0 3px 3px 0;
 }
 .speakers .speaker-about {
   word-break: keep-all;
@@ -862,7 +878,7 @@ footer .right {
  }
   .about-a .inside {
     padding: 40px 30px;
-    text-align: left;
+    text-align: center;
  }
   .about-a.intro .inside{
     padding: 40px 30px;
@@ -1146,9 +1162,6 @@ footer .right {
  }
   .about-a .whatfor span {
     display: inline;
- }
-  .about-a ul {
-    width: 300px;
  }
   .schedule .row {
     padding-left: 30px;
