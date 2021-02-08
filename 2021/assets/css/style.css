@@ -694,6 +694,9 @@ html {
 .sponsors .button-wrapper {
   margin-top: 75px;
 }
+#sponsor-mobile {
+	display: none;
+}
 .footer-top {
   background-image: url("../images/footer-top.jpg");
   background-size: cover;
@@ -1181,6 +1184,12 @@ footer .right {
  }
   .sponsors .twinkle a {
     display: block;
+ }
+ #sponsor-mobile {
+ 	display: block;
+ }
+ #sponsor-web {
+ 	display: none;
  }
   .registration .conf-info.notice {
     text-align: left;
