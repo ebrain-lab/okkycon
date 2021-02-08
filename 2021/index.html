@@ -38,6 +38,12 @@
 		.flickity-page-dots .dot.is-selected {
 		  background: #0059ab;
 		}
+		.about-a .flickity-button {
+		    display: none;
+		}
+		.about-a:hover .flickity-button {
+		    display: block;
+		}
         </style>
         <script>
             (function(i, s, o, g, r, a, m) {
@@ -466,25 +472,6 @@
                     </div>
                 </div>
             </section>
-<!--             <section class="sponsors"> -->
-<!--                 <div class="inside"> -->
-<!--                     <h2 class="section-title">Sponsors</h2> -->
-<!--                     <h3>개발자와 기업의 미래를 위한 후원</h3> -->
-<!-- 					 <div class="twinkle diamond"> -->
-<!--                         <h4>DIAMOND</h4> -->
-<!--                         <a href="http://www.ebrain.kr/" target="_blank"><img id="ebrain-logo" src="assets/images/ebrain-logo-icon@3x.png" alt="이브레인 로고"></a> -->
-<!--                     </div> -->
-<!--                     <div class="twinkle gold"> -->
-<!--                         <h4>GOLD</h4> -->
-<!--                     </div> -->
-<!--                     <div class="twinkle silver"> -->
-<!--                         <h4>SILVER</h4> -->
-<!--                     </div> -->
-<!--                     <div class="button-wrapper"> -->
-<!--                         <a href="assets/images/okkycon2021_sponsorshipguide.pdf">후원 문의</a> -->
-<!--                     </div> -->
-<!--                 </div> -->
-<!--             </section> -->
             <footer>
                 <div class="logo">
                     <a href="https://okky.kr" target="_blank"><img src="assets/images/logo_OKKY_white@2.png" alt="OKKY 로고"></a>
@@ -510,7 +497,7 @@
         var flkty = new Flickity( elem, {
             contain: true,
             wrapAround: true,
-            prevNextButtons: false,
+            prevNextButtons: true,
             autoPlay: true
         });
         
